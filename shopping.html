@@ -1,0 +1,93 @@
+<html>
+<body>
+
+
+    <style>
+    
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:darkblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:underline;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:rebeccapurple;
+}
+    
+    
+        body{
+            
+            background-color:palegreen
+        } 
+    
+    
+    </style>
+<body> 
+    
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="shopping.html">Shopping</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul> 
+    
+    
+    
+    
+    
+    <h1>
+        
+        Shopping
+    </h1>
+   
+    <h2>To find more call in!!</h2>
+    
+    
+    <img id='myimg' src='mk4.jpg'>
+    
+    
+    <button onclick="switchIt('mk4.jpg')">Red</button>
+<button onclick="switchIt('mk5.jpg')">Blue</button>
+    <button onclick="switchIt('mk6.jpg')">Pink</button>
+    <button onclick="switchIt('mk7.jpg')">Orange</button>
+
+<script>
+ function switchIt(image) {
+ var imgdoc = document.getElementById('myimg')
+ imgdoc.src = image; <!-- set <img> src attribute -->
+ }
+</script>
+
+    
+    
+    
+    
+    
+    <style>
+    
+        h1{
+            color:skyblue
+        }
+    
+    </style>
+    
+</body>
+
+
+
+</html>
